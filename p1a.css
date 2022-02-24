@@ -1,0 +1,87 @@
+table, thead, tr, th, td, tbody{
+    display:block;
+
+}
+
+table{
+    font-size: 13px;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+div{
+    width:80%;
+}
+
+thead tr{
+    position:absolute;
+    top:-1000px;
+    left:-1000px;
+}
+
+
+.constituency-table tbody tr:nth-child(odd){
+	background-color: #dfe1e7;
+}
+
+
+.constituency-table tbody tr:nth-child(even){
+	background-color: #eeeff2;
+}
+
+
+tr{
+    border:1px solid #d0d0ff;
+}
+
+td{    
+    position:relative;
+    padding-left:50%;
+}
+
+td:before{
+    position:absolute;
+}
+
+
+td:before{
+    top:6px;
+    left:6px;
+    width:45%;
+    white-space:nowrap;
+}
+
+td:nth-of-type(1):before{
+    content: "Constituency";
+}
+
+td:nth-of-type(2):before{
+    content: "Polling Div.";
+}
+
+td:nth-of-type(3):before{
+    content: "Poilling Stn";
+}
+
+td:nth-of-type(4):before{
+    content: "Location";
+}
+
+td:nth-of-type(5):before{
+    content: "Candidate1";
+}
+
+td:nth-of-type(6):before{
+    content: "Candidate2";
+}
+
+td:nth-of-type(7):before{
+    content: "Rejected";
+}
+
+td:nth-of-type(8):before{
+    content: "Total";
+    
+}
+tfoot{
+    display:none;
+}

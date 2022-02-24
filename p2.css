@@ -1,0 +1,23 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+}
+.textBox{
+    border:2px solid red;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border:3px solid #2d5591;
+}
+
+
+.invalid{
+    background-color:red;
+}
+.valid{
+    background-color:rgb(197, 247, 197);
+}

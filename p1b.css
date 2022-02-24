@@ -1,0 +1,53 @@
+table {
+    border-collapse: collapse;
+	font-size: 13px;
+    font-family: 'Gill Sans',sans-serif;
+    width:100%; 
+}
+
+div {
+    border: 10px solid #687291;
+    border-radius: 15px;
+    padding: 20px; 
+    width:52%
+}
+
+.headcol1{
+    text-align: left;
+    font-weight: bold;
+}
+
+.headcol{
+    text-align: right;
+    font-weight: bold;
+}
+
+.rowcol{
+    text-align: left;
+    
+}
+.rowscol{
+    text-align: right;
+}
+
+.tcolumn{
+    text-align: right;
+}
+.tcolumn1{
+    text-align: right;
+}
+.tcolumn3{
+    text-align: right;
+}
+.tcolumn4{
+    text-align: right;
+}
+
+tfoot {
+    border-top: 2px solid #000000;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-weight: bold;
+}
+
+
